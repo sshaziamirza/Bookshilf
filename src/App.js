@@ -6,6 +6,8 @@ import AddBook from "./components/AddBook";
 import Books from "./components/Book/Books";
 import About from "./components/About";
 import BookDetail from "./components/Book/BookDetail";
+const cors = require('cors');
+
 function App() {
   return (
     <React.Fragment>
